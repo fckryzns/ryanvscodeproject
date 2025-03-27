@@ -3,22 +3,46 @@
     padding: 0;
 }
 body{
-    background-color: white;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
 }
 strong{
     color: rgb(0, 153, 20);
 
 }
 main{
-    display: block;
-    padding: 0 300px 0 300px;
+    display: flex;
+    padding: 0 100px 0 40px;
 
 }
 
 p{
     margin: 10px 0 20px 0px;
-    font-size: ;10px
+    font-size: 30px;
 }
 header, footer{
     height: 100px;
 }
+
+button{
+    background-color: #22D4FD;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: #22D4FD;
+    margin: 25px 5px 0 0;
+}
+
+a{
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.botao-esquerda{
+    text-align: right;
+}
+img{
+    padding: 200px 500px 100px 0px;
+}
+
